@@ -28,7 +28,7 @@ public static class Database
 
     public static readonly DiscordClient DiscordClient = new(new DiscordConfiguration()
     {
-        Token = "MTIyNTA5ODQ0ODI1MzIyMjk1Mg.GICyI-.TLvAVcpf3EJeC36qYE7dr7jLj3wnBNFupmoZBI",
+        Token = Token.DISCORD_TOKEN,
         TokenType = TokenType.Bot,
         Intents = DiscordIntents.All
     });
